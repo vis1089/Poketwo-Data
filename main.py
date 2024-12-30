@@ -31,3 +31,4 @@ for filename in os.listdir(directory):
         print(f"Renamed {filename} to {pokemon_name}.png")
 
 print("All images renamed successfully!")
+bot.run(os.environ['DISCORD_TOKEN'])
